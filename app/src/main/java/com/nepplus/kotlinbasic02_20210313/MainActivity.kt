@@ -11,7 +11,14 @@ class MainActivity : AppCompatActivity() {
 
         sendBtn.setOnClickListener {
 
+//            버튼이 눌리면
+//            inputEdt에 적힌 내용을 -> inputMessage에 메모 get을 써먹었다
 
+            val inputMessage = inputEdt.text.toString()
+
+//            2. conetentTXT의 txt 속성값을 -> inputMessage에 적힌 값으로 변경 set을 써먹었다
+
+            contentTxt.text = inputMessage
         }
 
     }
