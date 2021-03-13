@@ -10,16 +10,19 @@
     tools:context=".MainActivity">
 
     <EditText
+        android:id="@+id/inputEdt"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="아무 말이나 입력해라"/>
 
     <Button
+        android:id="@+id/sendBtn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="전송"/>
 
     <TextView
+        android:id="@+id/contentTxt"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:gravity="center"
